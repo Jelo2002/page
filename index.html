@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jeremy Angelo Lim | Administrative & Operations Support Specialist</title>
+  
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="Jeremy Angelo Lim | Administrative & Operations Support Specialist" />
+  <meta name="description" content="Portfolio of Jeremy Angelo Lim - Virtual Assistance, Administrative Support, Bookkeeping, IT Support, and Custom Business Process Automation." />
+  <meta name="keywords" content="Jeremy Angelo Lim, Virtual Assistant, Administrative Support, Bookkeeping, IT Support, Systems Automation, PHP, MySQL, cPanel, Remote Support Philippines" />
+  <meta name="author" content="Jeremy Angelo Lim" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://jeremyangelolim.vercel.app/" />
+  <meta property="og:title" content="Jeremy Angelo Lim | Operations & Technical Specialist" />
+  <meta property="og:description" content="Virtual Assistance • Bookkeeping • IT Support • Custom Systems & Process Automation." />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="alternate icon" href="favicon.ico" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ========================================================================
+       Top Navigation Bar
+       ======================================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo">
+        <div class="brand-badge">JL</div>
+        <div class="brand-title-wrap">
+          <span class="brand-name">Jeremy Angelo Lim</span>
+          <span class="brand-role">Operations & IT Specialist</span>
+        </div>
+      </a>
+
+      <!-- Desktop Links -->
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Competencies</a></li>
+        <li><a href="#projects" class="nav-link">Projects & Systems</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#tools" class="nav-link">Tools & Tech</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <!-- Action Buttons -->
+      <div class="nav-actions">
+        <button class="btn btn-outline btn-sm trigger-resume-print" title="Print / Download Clean ATS Resume">
+          <i data-lucide="printer"></i>
+          <span>Print Resume</span>
+        </button>
+
+        <button class="theme-toggle" id="theme-toggle" title="Toggle Dark/Light Mode" aria-label="Toggle theme">
+          <i data-lucide="sun"></i>
+        </button>
+
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Open mobile menu">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer" id="mobile-drawer">
+      <ul class="mobile-drawer-links">
+        <li><a href="#about" class="nav-link">About & Pillars</a></li>
+        <li><a href="#skills" class="nav-link">Core Competencies</a></li>
+        <li><a href="#projects" class="nav-link">Projects & Systems</a></li>
+        <li><a href="#experience" class="nav-link">Experience & Timeline</a></li>
+        <li><a href="#tools" class="nav-link">Tools & Technologies</a></li>
+        <li><a href="#contact" class="nav-link">Contact & Hire</a></li>
+        <li>
+          <button class="btn btn-primary btn-sm trigger-resume-print" style="width: 100%; margin-top: 0.5rem;">
+            <i data-lucide="printer"></i> Print Clean Resume
+          </button>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       Hero Section
+       ======================================================================== -->
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+      
+      <!-- Left Content Column -->
+      <div class="hero-content">
+        <div class="status-pill">
+          <span class="pulse-dot"></span>
+          <span>Available for Remote / Full-time Roles</span>
+        </div>
+
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text">Jeremy Angelo Lim</span>
+        </h1>
+
+        <div class="hero-role-banner">
+          Administrative & Operations Support Specialist
+        </div>
+
+        <p class="hero-summary">
+          Detail-oriented and tech-savvy professional bridging high-precision <strong>administrative coordination</strong>, <strong>bookkeeping</strong>, <strong>IT infrastructure support</strong>, and <strong>custom web process automation</strong>. Dedicated to turning chaotic manual tasks into streamlined, automated digital workflows.
+        </p>
+
+        <!-- Meta Bar -->
+        <div class="hero-meta-bar">
+          <span class="meta-item">
+            <i data-lucide="map-pin"></i> Philippines
+          </span>
+          <span class="meta-item">
+            <i data-lucide="globe-2"></i> 100% Remote Ready
+          </span>
+          <span class="meta-item">
+            <i data-lucide="cpu"></i> PHP &bull; MySQL &bull; Google Workspace
+          </span>
+        </div>
+
+        <!-- CTA Buttons -->
+        <div class="hero-cta-group">
+          <a href="#projects" class="btn btn-primary btn-lg">
+            <i data-lucide="layout-grid"></i>
+            <span>Explore Systems & Projects</span>
+          </a>
+          <a href="#contact" class="btn btn-secondary btn-lg">
+            <i data-lucide="mail"></i>
+            <span>Get in Touch</span>
+          </a>
+          <button class="btn btn-outline btn-lg trigger-resume-print">
+            <i data-lucide="file-text"></i>
+            <span>ATS Resume PDF</span>
+          </button>
+        </div>
+
+        <!-- Key Stats Bar -->
+        <div class="hero-metrics" id="hero-metrics-container">
+          <!-- Populated by JavaScript -->
+        </div>
+      </div>
+
+      <!-- Right Interactive Spec Card -->
+      <div class="hero-visual">
+        <div class="hero-glass-card">
+          <div class="hero-card-header">
+            <div class="user-avatar-pill">
+              <div class="avatar-initials">JL</div>
+              <div class="avatar-info">
+                <h4>Jeremy Angelo Lim</h4>
+                <span>Operations & Tech Support</span>
+              </div>
+            </div>
+            <div class="terminal-badge">
+              <i data-lucide="terminal" style="width:12px; height:12px; display:inline-block; vertical-align:middle;"></i> SYS_READY
+            </div>
+          </div>
+
+          <div class="system-spec-grid">
+            <div class="spec-item">
+              <span class="spec-title"><i data-lucide="layers"></i> Core Focus</span>
+              <span class="spec-value">Admin & Bookkeeping</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-title"><i data-lucide="workflow"></i> Systems</span>
+              <span class="spec-value">Custom PHP & DB Tools</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-title"><i data-lucide="server"></i> Infrastructure</span>
+              <span class="spec-value">cPanel, MySQL, IT Ops</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-title"><i data-lucide="video"></i> Live Production</span>
+              <span class="spec-value">ATEM Mini & X32 Console</span>
+            </div>
+          </div>
+
+          <div class="quick-action-strip">
+            <div class="quick-action-text">
+              <strong>Need an organized operations backbone?</strong><br />
+              Let's build scalable administrative systems.
+            </div>
+            <button class="btn btn-primary btn-sm" data-copy="jeremyangelolim.work@gmail.com" data-copy-label="Email">
+              <i data-lucide="copy"></i> Copy Email
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Value Proposition ("What I Bring to a Team")
+       ======================================================================== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i data-lucide="sparkles"></i> Core Value Proposition</span>
+        <h2 class="section-title">What I Bring to Your Business</h2>
+        <p class="section-subtitle">
+          A unique hybrid skillset combining meticulous administrative precision with technical engineering mindset to keep operations structured, accurate, and ahead of schedule.
+        </p>
+      </div>
+
+      <div class="value-props-grid" id="value-props-container">
+        <!-- Rendered via JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Core Skills & Competencies (Interactive Pillars)
+       ======================================================================== -->
+  <section class="section" id="skills" style="background: rgba(0,0,0,0.15);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i data-lucide="check-square"></i> Capabilities</span>
+        <h2 class="section-title">Core Skills & Competencies</h2>
+        <p class="section-subtitle">
+          Select a domain below to explore specific technical and operational skills.
+        </p>
+      </div>
+
+      <!-- Pillar Selector Tabs -->
+      <div class="pillar-tabs" id="pillar-tabs">
+        <!-- Rendered via JavaScript -->
+      </div>
+
+      <!-- Pillar Content Card -->
+      <div class="pillar-content-panel" id="pillar-panel">
+        <!-- Rendered via JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Featured Projects & Internal Systems Showcase
+       ======================================================================== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i data-lucide="code"></i> Portfolio Work</span>
+        <h2 class="section-title">Selected Projects & Systems</h2>
+        <p class="section-subtitle">
+          Real-world internal systems, workflow automations, and IT infrastructure built to eliminate manual friction and streamline operations.
+        </p>
+      </div>
+
+      <!-- Category Filter Buttons -->
+      <div class="project-filter-bar" id="project-filter-bar">
+        <!-- Rendered via JavaScript -->
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="projects-grid" id="projects-grid">
+        <!-- Rendered via JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Professional Experience Timeline
+       ======================================================================== -->
+  <section class="section" id="experience" style="background: rgba(0,0,0,0.15);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i data-lucide="briefcase"></i> Career Roadmap</span>
+        <h2 class="section-title">Professional Experience</h2>
+        <p class="section-subtitle">
+          A track record of remote virtual assistance, bookkeeping support, IT operations, and live technical production.
+        </p>
+      </div>
+
+      <div class="experience-timeline" id="experience-timeline-container">
+        <!-- Rendered via JavaScript -->
+      </div>
+
+      <!-- Education Box -->
+      <div class="education-box" style="max-width: 860px; margin: 2.5rem auto 0 auto;">
+        <div class="education-left">
+          <div class="edu-icon">
+            <i data-lucide="graduation-cap"></i>
+          </div>
+          <div>
+            <h4 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 0.2rem;">Senior High School – General Academic Strand (GAS)</h4>
+            <p style="color: var(--accent-emerald); font-weight: 600; font-size: 0.9rem;">Nemesio I. Yabut High School</p>
+            <p style="color: var(--text-secondary); font-size: 0.85rem;">2021 – 2023 &bull; Philippines</p>
+          </div>
+        </div>
+        <span class="tag"><i data-lucide="award"></i> Academic Foundation</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Tools & Technologies Matrix (Searchable)
+       ======================================================================== -->
+  <section class="section" id="tools">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i data-lucide="cpu"></i> Technology Radar</span>
+        <h2 class="section-title">Tools & Technologies</h2>
+        <p class="section-subtitle">
+          Search or browse software, database engines, operating platforms, and multimedia hardware.
+        </p>
+      </div>
+
+      <!-- Live Search Box -->
+      <div class="tools-search-bar">
+        <i data-lucide="search" class="tools-search-icon"></i>
+        <input 
+          type="text" 
+          id="tool-search-input" 
+          class="tools-search-input" 
+          placeholder="Filter tools (e.g. 'MySQL', 'cPanel', 'Sheets', 'Payroll', 'X32')..." 
+        />
+      </div>
+
+      <!-- Category Grid -->
+      <div class="tool-categories-grid" id="tool-categories-container">
+        <!-- Rendered via JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Contact Hub & Inquiry Section
+       ======================================================================== -->
+  <section class="section" id="contact" style="background: rgba(0,0,0,0.2);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i data-lucide="message-square"></i> Let's Collaborate</span>
+        <h2 class="section-title">Get in Touch</h2>
+        <p class="section-subtitle">
+          Interested in bringing organized administrative support, accurate bookkeeping, or technical process automation to your team? Send a message below.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        
+        <!-- Left: Direct Contact Information -->
+        <div class="contact-info-card">
+          <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 0.5rem;">Direct Channels</h3>
+          <p style="color: var(--text-secondary); font-size: 0.9rem;">
+            Feel free to copy details or reach out through your preferred medium.
+          </p>
+
+          <div class="contact-channels">
+            
+            <!-- Email -->
+            <div class="contact-channel-item">
+              <div class="channel-left">
+                <div class="channel-icon"><i data-lucide="mail"></i></div>
+                <div class="channel-details">
+                  <span class="channel-name">Email</span>
+                  <span class="channel-val profile-email">jeremyangelolim.work@gmail.com</span>
+                </div>
+              </div>
+              <button class="copy-btn" data-copy="jeremyangelolim.work@gmail.com" data-copy-label="Email Address">
+                <i data-lucide="copy"></i> Copy
+              </button>
+            </div>
+
+            <!-- Phone / Mobile -->
+            <div class="contact-channel-item">
+              <div class="channel-left">
+                <div class="channel-icon"><i data-lucide="phone"></i></div>
+                <div class="channel-details">
+                  <span class="channel-name">Mobile / WhatsApp</span>
+                  <span class="channel-val profile-phone">+63 9XX XXX XXXX</span>
+                </div>
+              </div>
+              <button class="copy-btn" data-copy="+63 9XX XXX XXXX" data-copy-label="Phone Number">
+                <i data-lucide="copy"></i> Copy
+              </button>
+            </div>
+
+            <!-- Location -->
+            <div class="contact-channel-item">
+              <div class="channel-left">
+                <div class="channel-icon"><i data-lucide="map-pin"></i></div>
+                <div class="channel-details">
+                  <span class="channel-name">Location</span>
+                  <span class="channel-val profile-location">Philippines (UTC+8)</span>
+                </div>
+              </div>
+              <span class="tag"><i data-lucide="clock"></i> Remote</span>
+            </div>
+
+          </div>
+
+          <!-- Quick Social Badges -->
+          <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 1.5rem;">
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+              <i data-lucide="linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+              <i data-lucide="github"></i> GitHub
+            </a>
+            <button class="btn btn-outline btn-sm trigger-resume-print">
+              <i data-lucide="printer"></i> Download PDF
+            </button>
+          </div>
+        </div>
+
+        <!-- Right: Inquiry Form -->
+        <div class="contact-form-card">
+          <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 0.5rem;">Send a Direct Message</h3>
+          <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1.5rem;">
+            Fill out this quick form to send an inquiry directly to Jeremy.
+          </p>
+
+          <form id="portfolio-contact-form">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+              <div class="form-group">
+                <label class="form-label" for="contact-name">Your Name</label>
+                <input type="text" id="contact-name" class="form-input" placeholder="e.g. Alex Morgan" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="contact-email">Your Email</label>
+                <input type="email" id="contact-email" class="form-input" placeholder="alex@company.com" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="contact-subject">Inquiry Subject / Area</label>
+              <select id="contact-subject" class="form-select" required>
+                <option value="Virtual Assistance & Admin Support">Virtual Assistance & Administrative Support</option>
+                <option value="Bookkeeping & Financial Administration">Bookkeeping & Financial Administration</option>
+                <option value="IT Support & Web Hosting Management">IT Support & Web Hosting Management</option>
+                <option value="systems">Custom Systems & Process Automation</option>
+                <option value="General Collaboration / Full-Time Role">General Collaboration / Full-Time Role</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="contact-message">Your Message</label>
+              <textarea id="contact-message" class="form-textarea" placeholder="Describe your project, team requirements, or schedule..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+              <i data-lucide="send"></i>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Footer
+       ======================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <div class="brand-badge">JL</div>
+            <span class="brand-name">Jeremy Angelo Lim</span>
+          </div>
+          <p>
+            Administrative & Operations Support Specialist with expertise in bookkeeping, technical troubleshooting, and custom web-based business automation.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#about">About & Value Pillars</a></li>
+            <li><a href="#skills">Core Competencies</a></li>
+            <li><a href="#projects">Systems & Projects</a></li>
+            <li><a href="#experience">Career Roadmap</a></li>
+            <li><a href="#tools">Tools & Tech Radar</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Quick Actions</h4>
+          <ul class="footer-links">
+            <li><a href="#" class="trigger-resume-print">Print / PDF Resume</a></li>
+            <li><a href="#contact">Hire Jeremy</a></li>
+            <li><a href="mailto:jeremyangelolim.work@gmail.com">Send Email</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; <span id="current-year">2026</span> Jeremy Angelo Lim. All rights reserved.</span>
+        <span>Designed for high performance &amp; Vercel deployment.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       Interactive Project Modal
+       ======================================================================== -->
+  <div class="modal-backdrop" id="project-modal" role="dialog" aria-modal="true">
+    <div class="modal-container">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Close dialog">
+        <i data-lucide="x"></i>
+      </button>
+      <div class="modal-content-body" id="project-modal-body">
+        <!-- Rendered dynamically via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       Toast Notification Container
+       ======================================================================== -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
