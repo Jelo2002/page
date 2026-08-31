@@ -10,7 +10,6 @@ const portfolioData = {
     tagline: "Virtual Assistance • Administrative Support • Bookkeeping • IT Support • Systems & Process Management",
     location: "Philippines",
     email: "jeremyangelolim.work@gmail.com", // Customizable
-    phone: "+63 9XX XXX XXXX", // Customizable
     linkedin: "https://linkedin.com/in/jeremyangelolim",
     github: "https://github.com/jeremyangelolim",
     discord: "jeremy_ops",

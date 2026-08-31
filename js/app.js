@@ -64,10 +64,6 @@ function renderProfile() {
     el.textContent = profile.email;
     if (el.tagName === 'A') el.href = `mailto:${profile.email}`;
   });
-  document.querySelectorAll('.profile-phone').forEach(el => {
-    el.textContent = profile.phone;
-    if (el.tagName === 'A') el.href = `tel:${profile.phone.replace(/[^0-9+]/g, '')}`;
-  });
 
   // Metrics Bar
   const metricsContainer = document.getElementById('hero-metrics-container');

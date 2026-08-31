@@ -13,7 +13,7 @@ A modern, high-performance, and responsive portfolio website designed for **Jere
 - **⚡ Searchable Tools & Tech Radar**: Real-time interactive search filter across 30+ productivity tools, databases, IT ops software, and multimedia equipment.
 - **🗂️ Interactive Core Competency Pillars**: Tabbed interface breaking down Administrative, Bookkeeping, IT Support, and Process Automation skills.
 - **🖨️ ATS-Compliant 1-Click Printable Resume**: Built-in print engine (`window.print()` + dedicated `@media print` CSS) that formats the entire resume into a clean PDF ready for recruiters.
-- **📋 One-Click Copy & Toast Notifications**: Quick copy for email, phone, and Discord with toast feedback.
+- **📋 One-Click Copy & Toast Notifications**: Quick copy for email and Discord with instant toast feedback.
 - **📱 100% Mobile & Tablet Responsive**: Optimized from 320px mobile screens to 4K ultra-wide monitors.
 
 ---
@@ -72,10 +72,9 @@ A modern, high-performance, and responsive portfolio website designed for **Jere
 
 All content is cleanly separated in `js/data.js`. Open `js/data.js` to update:
 
-1. **Email & Phone Number**:
+1. **Contact & Social Links**:
    ```javascript
    email: "your.actual.email@gmail.com",
-   phone: "+63 9XX XXX XXXX",
    linkedin: "https://linkedin.com/in/yourprofile",
    github: "https://github.com/yourhandle"
    ```
