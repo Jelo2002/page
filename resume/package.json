@@ -1,0 +1,21 @@
+{
+  "name": "jeremy-angelo-lim-portfolio",
+  "version": "1.0.0",
+  "description": "Professional Portfolio Website of Jeremy Angelo Lim - Administrative & Operations Support Specialist",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 3000",
+    "serve": "python3 -m http.server 8080"
+  },
+  "keywords": [
+    "portfolio",
+    "virtual-assistant",
+    "administrative-support",
+    "bookkeeping",
+    "it-support",
+    "systems-automation",
+    "vercel"
+  ],
+  "author": "Jeremy Angelo Lim",
+  "license": "MIT"
+}
